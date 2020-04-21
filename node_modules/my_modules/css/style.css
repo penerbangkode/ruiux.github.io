@@ -1,0 +1,33 @@
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fafafa; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffe207; 
+    border-radius : 7px 0 0 7px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffc107; 
+  }
+
+.contact-img{
+    filter: grayscale(100%);
+}
+
+.contact-img:hover{
+    filter: grayscale(0%);
+}
+
+footer .row{
+    width: 100%;
+}
